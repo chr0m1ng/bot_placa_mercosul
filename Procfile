@@ -1,1 +1,1 @@
-bot: python telegram_bot.py
+bot: python main.py
