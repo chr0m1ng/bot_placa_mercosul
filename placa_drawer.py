@@ -55,7 +55,7 @@ class Placa:
         if len(placa) == 7:
             placa = placa[:3] + ' ' + placa[3:]
 
-        placa_obj = re.fullmatch(
+        placa_obj = re.match(
             r'([A-Z]{3}) [0-9]{1}([A-Z|0-9]{1})[0-9]{2}', placa)
 
         if placa_obj:
