@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from tempfile import NamedTemporaryFile
-from shutil import copyfileobj
 from placa_drawer import Placa
 import logging
 import os
